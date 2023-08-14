@@ -1,0 +1,60 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url("./post_cover-3.png");
+  background-size: cover;
+  background-position: center; */
+  color: black;
+}
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #90ddf7;
+  filter: blur(122px);
+}
+.blur2 {
+  position: absolute;
+  right: 0;
+  bottom: 3rem;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #f8b1dd;
+  filter: blur(122px);
+}
+.blur3 {
+  position: absolute;
+  left: 1;
+  bottom: 2rem;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #e3f162;
+  filter: blur(112px);
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.input {
+  background-color: rgba(230, 230, 230);
+  border: rgba(255, 255, 255);
+  border-radius: 10px 40px 10px 40px;
+  width: 70%;
+  box-shadow: 5px 5px 20px 5px rgba(119, 119, 119, 0.5),
+    -5px -5px 20px 5px rgba(255, 255, 255, 0.8),
+    inset 5px 1px 20px 5px rgba(119, 119, 119, 0.5),
+    inset -5px -5px 20px 5px rgba(255, 255, 255, 0.8);
+}
